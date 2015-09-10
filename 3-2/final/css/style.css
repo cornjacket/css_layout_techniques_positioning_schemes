@@ -6,12 +6,10 @@
 	-moz-box-sizing: border-box;	
 	box-sizing: border-box;
 }
-
 html,
 body {
-	height: 100%;
+ height: 100%;
 }
-
 body {
 	font: normal 1.1em/1.5 sans-serif;
 	color: #222;
@@ -57,16 +55,12 @@ body {
 ================================ */
 
 .col {
-	padding: 20px;
+	padding: 20px;  /* not in mine */
 }
-
 .extra-content,
 .main-banner {
-	display: block;
+	display: block; /*none;*/
 }
-
-
-
 
 /* Imagery
 ================================ */
@@ -93,38 +87,36 @@ body {
 
 @media (min-width: 769px) {
 
-    .main-wrapper,
-    .content-row,
-    .col {
-      height: 100%;  
-    }
+	.main-wrapper,
+	.content-row,
+	.col {
+		height: 100%;
+	}
 
 /*	.main-wrapper {
 		width: 95%;
-		margin: auto;
-	}*/
+		margin: auto; 
+	}*/   /* mine is not commented */
 
 	/* Header, Banner and Footer Layout
 	================================ */
 
-    .main-header {
-    	position: relative;
-    }
+	.main-header {
+		position: relative;
+	}
 
-    .main-logo,
-    .main-nav {
-      position: absolute;	
-    }
-
-    .main-logo {
-    	top: 20px;
-    	left: 20px;
-    }
-
-    .main-nav {
-    	bottom: 35px;
-    	right:   25px;
-    }
+	.main-logo,
+	.main-nav {
+		position: absolute;
+	}
+	.main-logo {
+		top: 20px;
+		left: -10px;  /* not in mine but i dont want it */
+	}
+	.main-nav {
+		bottom: 35px;
+		right: 25px;
+	}
 
 	.main-nav li {
 		margin-right: 6px;
@@ -135,7 +127,6 @@ body {
 		background: #dfe2e4;
 		text-align: center;
 		padding: 35px 15px;
-		/*display: block; /* this is not in theirs DRT */
 	}
 
 	/* Column Layout
@@ -143,28 +134,25 @@ body {
 
 	.extra-content,
 	.main-banner {
-		display: block;
+		display: block; /* Unhide from mobile view */
 	}
-
-
 	.content-row {
 		position: relative;
 	}
-
 	.col {
 		width: 30%;
-		position: absolute; /* this causes parent container to collapse so we need to make parent height 100% */
+		position: absolute;
 	}
-
 	.primary-content {
 		width: 40%;
 		left: 30%;
 	}
-
 	.secondary-content {
 		right: 0;
 	}
+	
 
+	
 	/* Imagery
 	================================ */
 
@@ -174,3 +162,6 @@ body {
 		margin-right: 25px;
 	}
 }
+
+
+

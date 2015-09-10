@@ -6,12 +6,6 @@
 	-moz-box-sizing: border-box;	
 	box-sizing: border-box;
 }
-
-html,
-body {
-	height: 100%;
-}
-
 body {
 	font: normal 1.1em/1.5 sans-serif;
 	color: #222;
@@ -56,10 +50,6 @@ body {
 /* Column Layout
 ================================ */
 
-.col {
-	padding: 20px;
-}
-
 .extra-content,
 .main-banner {
 	display: block;
@@ -99,10 +89,10 @@ body {
       height: 100%;  
     }
 
-/*	.main-wrapper {
+	.main-wrapper {
 		width: 95%;
 		margin: auto;
-	}*/
+	}
 
 	/* Header, Banner and Footer Layout
 	================================ */
@@ -135,7 +125,7 @@ body {
 		background: #dfe2e4;
 		text-align: center;
 		padding: 35px 15px;
-		/*display: block; /* this is not in theirs DRT */
+		display: block; /* this is not in theirs DRT */
 	}
 
 	/* Column Layout
